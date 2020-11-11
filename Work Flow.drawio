@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-11T11:59:27.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 Edg/86.0.622.63" etag="gPCFdUmNTBXDVfVh1KT4" version="13.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-11T16:05:13.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 Edg/86.0.622.63" etag="0LipgQT7aO4ZM0wLTmuS" version="13.9.6" type="github">
   <diagram id="Ca3qFjEWccOTUX_GJ6TU" name="Page-1">
-    <mxGraphModel dx="5804" dy="1763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4069" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,14 +21,9 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <UserObject label="FETCH DATA FROM DATABASE" lucidchartObjectId="upZMdfviS44m" id="4iIl--aW3Kxm2YLaarUe-389">
+        <UserObject label="PERFORM&lt;br&gt;CRUD" lucidchartObjectId="upZMdfviS44m" id="4iIl--aW3Kxm2YLaarUe-389">
           <mxCell style="html=1;overflow=block;whiteSpace=wrap;;whiteSpace=wrap;fontSize=13;fontColor=#000000;spacing=7;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=7;strokeWidth=2;" parent="1" vertex="1" zOrder="3">
             <mxGeometry x="-782" y="356" width="96" height="72" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="" lucidchartObjectId="xuZM8lFK8NhB" id="4iIl--aW3Kxm2YLaarUe-390">
-          <mxCell style="html=1;overflow=block;whiteSpace=wrap;;whiteSpace=wrap;fontSize=11;spacing=3;strokeColor=#5e5e5e;strokeOpacity=100;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=7;fillColor=#000000;strokeWidth=2;" parent="1" vertex="1" zOrder="4">
-            <mxGeometry x="-1011" y="312" width="361" height="360" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" lucidchartObjectId="_wZMxu1qryZq" id="4iIl--aW3Kxm2YLaarUe-391">
@@ -44,6 +39,9 @@
             <mxGeometry x="-446" y="405" width="192" height="128" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="U3WvlarTebii66XnJ6GL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4iIl--aW3Kxm2YLaarUe-395" target="U3WvlarTebii66XnJ6GL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 12px&quot;&gt;API URL COLLECTION&lt;/font&gt;" lucidchartObjectId="zE9MGP5gBMmx" id="4iIl--aW3Kxm2YLaarUe-395">
           <mxCell style="html=1;overflow=block;whiteSpace=wrap;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.documentdb_with_mongodb_compatibility;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=#ffffff;whiteSpace=wrap;fontSize=14;fontColor=#000000;fontStyle=1;spacing=0;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=7;fillColor=#3b48cc;strokeWidth=2;" parent="1" vertex="1" zOrder="9">
             <mxGeometry x="-986" y="502" width="120" height="120" as="geometry" />
@@ -218,7 +216,7 @@
             <mxGeometry x="730" y="437" width="96" height="78" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="b4A4Avpja0QOO9Grt9ob-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4iIl--aW3Kxm2YLaarUe-429" target="b4A4Avpja0QOO9Grt9ob-13">
+        <mxCell id="b4A4Avpja0QOO9Grt9ob-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4iIl--aW3Kxm2YLaarUe-429" target="b4A4Avpja0QOO9Grt9ob-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="GET RESPONE FROM THE API&#xa;URL&#39;S." lucidchartObjectId="PU-Mf2I44WwS" id="4iIl--aW3Kxm2YLaarUe-429">
@@ -292,18 +290,26 @@
         <mxCell id="4iIl--aW3Kxm2YLaarUe-442" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/document-file-formats-2/512/22-128.png" parent="1" vertex="1">
           <mxGeometry x="-245" y="446.5" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="b4A4Avpja0QOO9Grt9ob-3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;DATABASE&lt;/b&gt;&lt;/font&gt;" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.mongodb;gradientColor=#DFDEDE" vertex="1" parent="1">
+        <mxCell id="b4A4Avpja0QOO9Grt9ob-3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;DATABASE&lt;/b&gt;&lt;/font&gt;" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.mongodb;gradientColor=#DFDEDE" parent="1" vertex="1">
           <mxGeometry x="-1340" y="417" width="185" height="146" as="geometry" />
         </mxCell>
-        <mxCell id="b4A4Avpja0QOO9Grt9ob-6" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.6;dx=35;" vertex="1" parent="1">
+        <mxCell id="b4A4Avpja0QOO9Grt9ob-6" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.6;dx=35;" parent="1" vertex="1">
           <mxGeometry x="-1150" y="473" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b4A4Avpja0QOO9Grt9ob-13" value="UPDATE LOG" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;fontColor=#333333;strokeColor=#5e5e5e;strokeWidth=2;spacing=7;arcSize=7;" vertex="1" parent="1">
+        <mxCell id="b4A4Avpja0QOO9Grt9ob-13" value="UPDATE LOG" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;fontColor=#333333;strokeColor=#5e5e5e;strokeWidth=2;spacing=7;arcSize=7;" parent="1" vertex="1">
           <mxGeometry x="937" y="585" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b4A4Avpja0QOO9Grt9ob-15" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_over_the_air_update;" vertex="1" parent="1">
+        <mxCell id="b4A4Avpja0QOO9Grt9ob-15" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_over_the_air_update;" parent="1" vertex="1">
           <mxGeometry x="1030" y="624" width="22" height="22" as="geometry" />
         </mxCell>
+        <mxCell id="U3WvlarTebii66XnJ6GL-4" value="&lt;font style=&quot;font-size: 12px&quot;&gt;API_URL&lt;br&gt;TIMEOUT_SEC&lt;br&gt;CONTENT_TYPE&lt;br&gt;SAMPLE_DATA&lt;br&gt;CHECKLIST FUNC. NAME&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="-1051" y="718" width="250" height="130" as="geometry" />
+        </mxCell>
+        <UserObject label="" lucidchartObjectId="xuZM8lFK8NhB" id="U3WvlarTebii66XnJ6GL-6">
+          <mxCell style="html=1;overflow=block;whiteSpace=wrap;;whiteSpace=wrap;fontSize=11;spacing=3;strokeColor=#5e5e5e;strokeOpacity=100;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=7;fillColor=#000000;strokeWidth=2;" vertex="1" zOrder="4" parent="1">
+            <mxGeometry x="-1011" y="312" width="361" height="360" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
